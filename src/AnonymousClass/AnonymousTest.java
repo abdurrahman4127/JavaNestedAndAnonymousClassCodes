@@ -19,7 +19,7 @@ public class AnonymousTest {
     public static void main(String[] args)
     {
         // anonymous class
-        Person p = new Person("Thao Nhi") {
+        Person p = new Person("Abdur Rahman") {
             public void display() {
                 display(2); // this is fine
                 System.out.println("Hello from Anonymous");
@@ -32,7 +32,7 @@ public class AnonymousTest {
         };
 
         p.display();
-        p.display("Vo"); // Ok
+        p.display("Siuuuu"); // Ok
 //        p.display(3); // error: The method display(String) in the type Person is not applicable for the arguments (int)
 
     }
