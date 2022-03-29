@@ -5,7 +5,7 @@ public class StaticInner {
 
     static class Inner {
         void msg() {
-            System.out.println("data is "+data);
+            System.out.println("data is " + data);
         }
 
         static void msg(String msg) {
